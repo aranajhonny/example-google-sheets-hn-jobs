@@ -1,0 +1,29 @@
+{
+  "schema": {
+    "types": [
+      {
+        "name": "Root",
+        "actions": [
+          {
+            "name": "configure",
+            "type": "Void",
+            "params": [
+              {
+                "name": "keywords",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "name": "watchJobs",
+            "type": "Void"
+          }
+        ]
+      }
+    ]
+  },
+  "dependencies": {
+    "sheet": "membrane-driver-google-sheets:spreadsheets.one(id:\"<spreadsheetId>\").sheets.one(sheetId:<sheetId>)",
+    "stories": "hn:items.page(page:1,pageSize:30,topic:\"job\")"
+  }
+}
