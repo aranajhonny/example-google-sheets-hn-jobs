@@ -3,7 +3,7 @@
 // `state` is an object that persists across program updates. Store data here.
 import { nodes, root, state } from "membrane";
 
-export async function configure({ args: { keywords } }) {
+export async function configure({ keywords }) {
   state.keywords = keywords;
 }
 
