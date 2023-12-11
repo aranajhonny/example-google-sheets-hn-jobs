@@ -22,7 +22,7 @@
             "description": "Starts watching for new job postings"
           }
         ],
-        "description": "Google Sheets Hacker News Jobs Driver"
+        "description": "Save Hacker News Jobs in Google Sheets"
       }
     ]
   },
