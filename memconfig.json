@@ -10,15 +10,19 @@
             "params": [
               {
                 "name": "keywords",
-                "type": "String"
+                "type": "String",
+                "description": "The keywords to use for job search"
               }
-            ]
+            ],
+            "description": "Configures the driver with specific keywords for job search"
           },
           {
             "name": "watchJobs",
-            "type": "Void"
+            "type": "Void",
+            "description": "Starts watching for new job postings"
           }
-        ]
+        ],
+        "description": "Save Hacker News Jobs in Google Sheets"
       }
     ]
   },
