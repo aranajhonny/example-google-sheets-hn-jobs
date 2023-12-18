@@ -27,7 +27,7 @@
     ]
   },
   "dependencies": {
-    "sheet": "google-sheets:spreadsheets.one(id:\"<spreadsheetId>\").sheets.one(sheetId:<sheetId>)",
+    "sheet": "google-sheets:spreadsheets.one(id:\"<spreadsheetId>\").sheets.one(sheetId:\"<sheetId>\")",
     "stories": "hn:items.page(page:1,pageSize:30,topic:\"job\")"
   }
 }
